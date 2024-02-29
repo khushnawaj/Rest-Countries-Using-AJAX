@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282c34; /* Dark background color */
+    color: #61dafb; /* Light text color */
+}
+
+.main {
+    width: 100vw;
+}
+
+.first,
+.second {
+    width: 70%;
+    margin: auto;
+    background-color: #2d323e; /* Dark background for form and table */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.first input {
+    width: 70%;
+    padding: 10px;
+    background-color: #3e4551; /* Darker input background */
+    color: #abb2bf;
+    border: 1px solid #282c34;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.first input:hover {
+    background-color: #4a5261; /* Slightly darker background on hover */
+}
+
+.first button {
+    width: 30%;
+    padding: 10px;
+    background-color: #61dafb; /* Blue button color */
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.first button:hover {
+    background-color: #4fa3d1; /* Darker blue on hover */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#flags {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+tr {
+    background-color: #2d323e; /* Dark table row background */
+    color: #abb2bf;
+}
+
+tr:nth-child(even) {
+    background-color: #3a3f4c; /* Darker even row background */
+}
+
+tr, td {
+    padding: 10px;
+}
